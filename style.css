@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    background: #2d8d7d;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #333;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.scratch {
+    margin-top: 25%;
+}
+
+.image{
+    width: 400px;
+    height: 400px;
+}
+
+.heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer div img {
+    margin-right: 30px;
+}
+
+.text-block {
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.bio h2 {
+    margin-bottom: 10px;
+    padding: 30px, 30px, 20px;
+    font-family: Arial;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+
+.bio p {
+    margin-bottom: 40px;
+    padding: 0px, 30px, 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+
+.img-fluid {
+    margin-bottom: 50px;
+}
+
+.page-footer {
+    margin-top: auto;
+    background-color: #2d8d7d;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
